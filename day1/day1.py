@@ -22,3 +22,8 @@ def find_right_floor(inputs):
                 char_position = i + 1
     print(char_position)
     print(curr_floor)
+
+
+if __name__ == '__main__':
+    inputs = read_file_lines()
+    find_right_floor(inputs)

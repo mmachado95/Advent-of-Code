@@ -40,5 +40,6 @@ def ribbon(dimensions):
     min2 = min(dims)
     return min1 * 2 + min2 * 2 + l * w * h
 
+
 if __name__ == '__main__':
     wrapping()

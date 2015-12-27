@@ -53,6 +53,6 @@ def santa_with_robot_moves():
                 char_index += 1
     print(len(houses))
 
-
 if __name__ == '__main__':
+    lonely_santa_moves()
     santa_with_robot_moves()
